@@ -1,0 +1,25 @@
+{
+    "type": "postgres",
+    "host": "rajje.db.elephantsql.com",
+    "port": 5432,
+    "username": "gdcgcekk",
+    "password": "bzKXXzgJ5koBSnS1FmkxqFV8zw97fq3D",
+    "database": "gdcgcekk",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "./src/entity/*"
+    ],
+    "migrations": [
+        "src/migrations/**/*.ts"
+    ],
+    "subscribers": [
+        "src/subscribers/**/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "src/entity",
+        "migrationsDir": "src/migrations",
+        "subscribersDir": "src/subscriber"
+    }
+    
+}
